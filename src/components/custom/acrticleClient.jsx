@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import ProfilePicture from "@/public/lucas.jpeg";
+import ProfilePicture from "@/public/eve.jpeg";
 import { formatDate } from "@/app/(blog)/utils";
 import { deleteDataById } from "@/app/api/util/actions";
 import parse from "html-react-parser";

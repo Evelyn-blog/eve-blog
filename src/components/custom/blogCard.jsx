@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Card, CardContent, CardFooter } from "../ui/card";
 import { Button } from "../ui/button";
 import { Trash2 } from "lucide-react";
-import ProfilePicture from "@/public/lucas.jpeg";
+import ProfilePicture from "@/public/eve.jpeg";
 import Link from "next/link";
 import { formatText } from "../../lib/utils";
 import { deleteDataById } from "@/app/api/util/actions";

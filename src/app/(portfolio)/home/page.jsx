@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import ProfilePicture from "@/public/lucas.jpeg";
+import ProfilePicture from "@/public/eve.jpeg";
 import { Instagram, Linkedin } from "lucide-react";
 
 export default function Home() {
@@ -8,33 +8,29 @@ export default function Home() {
     <>
       <div className="flex flex-col-reverse md:flex-row items-center md:items-start justify-between mb-12">
         <div className="md:w-2/3 mb-8 md:mb-0">
-          <h1 className="text-primary hover:text-secondary text-4xl font-bold mb-2">{"Hi! I'm Lucas 🙋🏻‍♂️"}</h1>
+          <h1 className="text-primary hover:text-secondary text-4xl font-bold mb-2">
+            {"Hi! I'm Eve 🙋🏻‍♂️"}
+          </h1>
 
           <p className="text-neutral mb-6 max-w-xl">
-            I’m a web and mobile developer. My journey has included freelance
-            projects as well as roles in both nationally and internationally
-            companies, providing me with a versatile perspective on software
-            development.
+            As an innovative pharmacist, I bring diverse experience across
+            various pharmaceutical fields. My research background includes a
+            Co-Authorship on a Master thesis exploring in silico methods. I am
+            passionate about digital tools to advance computational
+            pharmaceutical research and leveraging digital health solutions.
           </p>
           <p className="text-neutral mb-6 max-w-xl">
-            I’ve collaborated with clients across various industries, honing my
-            ability to adapt to diverse needs while working independently. My
-            experience in complex teams has allowed me to tackle technical
-            challenges and contribute to impactful projects.
+            My experience also extends to pharmaceutical innovation and AI
+            applications, having participated in numerous congresses related to
+            pharmacy education and research across Europe and Latin America.
           </p>
           <p className="text-neutral mb-6 max-w-xl">
-            I’m eager to continue growing professionally and apply my expertise
-            to exciting projects. I welcome new connections and collaborations,
-            so feel free to reach out to discuss ideas and opportunities in the
-            dynamic world of web and mobile development.
-          </p>
-          <p className="text-neutral mb-6 max-w-xl">
-            Thank you for visiting my profile! I look forward to connecting with
-            you!
+            I’m committed to advancing pharmaceutical sciences by embracing
+            emerging trends and opportunities.
           </p>
           <Button className="btn btn-primary hover:bg-secondary hover:cursor-pointer">
             <a
-              href="https://drive.google.com/file/d/1HZbcY0AVaq6cNOz6lIion3jTH7TYg9hL/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1CcQhcVXGTN0PCFmOTvJhFTBKTg0aanXm/view?usp=drive_link"
               target="_blank"
             >
               See Resume
@@ -54,14 +50,14 @@ export default function Home() {
 
       <div className="flex justify-center gap-10 p-8 md:p-12 ">
         <a
-          href="https://www.instagram.com/hlucasook/"
+          href="https://www.instagram.com/eve_thechief/"
           target="_blank"
           className="text-neutral hover:text-primary"
         >
           <Instagram size={24} />
         </a>
         <a
-          href="https://www.linkedin.com/in/heredialucasfran/"
+          href="https://www.linkedin.com/in/evelyn-hafele-446406261/"
           target="_blank"
           className="text-neutral hover:text-primary"
         >
