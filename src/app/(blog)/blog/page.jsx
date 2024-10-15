@@ -8,6 +8,7 @@ export const metadata = {
 
 export default async function BlogCardsServerSide() {
   const { posts } = await getData("posts");
+  console.log("posts", posts);
 
   return <BlogCardsClient posts={posts} />;
 }
